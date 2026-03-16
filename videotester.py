@@ -1,3 +1,7 @@
+# AI Based Real-Time Facial Emotion Recognition System
+# Author: Naincy Dhakad
+# Description: Real-time human emotion detection using webcam and CNN model.
+
 import os
 import cv2
 import numpy as np
