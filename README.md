@@ -1,10 +1,42 @@
-# Facial-emotion-recognition
-This project explores the domain of Facial Emotion Recognition (FER) through the application of cutting-edge machine learning techniques. Leveraging tools and technologies such as deep neural networks, Python programming, and computer vision libraries like OpenCV, we develop a robust FER system. The project focuses on the preprocessing of facial images, feature extraction, and the implementation of machine learning models, including Convolutional Neural Networks (CNNs) and support vector machines (SVMs). Our objective is to accurately classify human emotions, enabling applications in various fields, such as human-computer interaction, mental health assessment, and customer sentiment analysis.
+# AI Based Real-Time Facial Emotion Recognition System
 
-# Conclusion and Recommendation
-In this study, a method for classifying face expressions is proposed. Many applications, including robotic vision, video surveillance, digital cameras, security, and human-computer interaction, benefit from face detection and extraction of facial emotions. The goal of this research was to create a facial expression recognition system that utilized computer visions and improved face expression recognition's advanced feature extraction and classification.
-Seven different facial expressions of photos of various people from various datasets have been evaluated for this research. In this research, facial expressions are preprocessed from collected face photos before features are extracted using Local Binary Patterns and facial expressions are classified using training datasets for Support Vector Machines on facial image datasets. This research uses the JAFFE, COHN-KANADE face database to detect additional facial emotions. The system has been assessed using Precision, Recall, and Fscore in order to gauge the effectiveness of the suggested methodology and approaches and verify the correctness of the findings. By splitting the datasets into training samples and testing samples in the ratios of 8:2 for COHN-KANADE and 7.5:2.5 for JAFFE, the identical datasets were utilized for both training and testing. The COHN-KANADE dataset's Precision, Recall, and Fscore were 83.6142%, 95.0822%, and 88.9955%, respectively, whereas the JAFFE dataset's values were 91.8986%, 98.3649%, and 95.0218%.
-Results of experiments conducted on the COHN-KANADE dataset and the JAFFE database demonstrate the potential of the suggested strategy. Recognition of facial expressions is an extremely difficult topic. More work has to be put into enhancing categorization performance for critical applications. Our future work will concentrate on enhancing the system's functionality and generating more accurate classifications that might be helpful in a variety of real-world applications.
+This project implements a real-time Facial Emotion Recognition (FER) system using Machine Learning and Computer Vision.
+The system captures live video through a webcam, detects human faces using the OpenCV Haar Cascade classifier, and predicts the emotion using a trained Convolutional Neural Network (CNN) model.
 
-# Result
-![WhatsApp Image 2023-10-09 at 18 36 37](https://github.com/RitikaRathi11/Facial-emotion-recognition/assets/99483887/2b8179d5-b393-4d40-9ca3-b8329e6c9279)
+## Author
+Naincy Dhakad  
+B.Tech Computer Science Engineering
+
+## Technologies Used
+- Python
+- OpenCV
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+
+## Features
+- Real-time face detection
+- Emotion classification (Happy, Sad, Angry, Fear, Surprise, Neutral)
+- Webcam based emotion detection
+- Deep learning based prediction model
+
+## Working of System
+1. Capture image from webcam
+2. Detect face using Haar Cascade classifier
+3. Preprocess image
+4. Predict emotion using CNN model
+5. Display predicted emotion on screen
+
+## Applications
+- Human Computer Interaction
+- Smart surveillance systems
+- Customer sentiment analysis
+- Mental health monitoring
+
+## Future Improvements
+- Improve model accuracy with larger dataset
+- Add graphical user interface
+- Deploy as web application
+
+## Output
+Emotion detection using webcam in real-time.
