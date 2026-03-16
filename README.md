@@ -1,4 +1,4 @@
-# AI Based Real-Time Facial Emotion Recognition System
+# AI-Facial-Emotion-Detection
 
 This project implements a real-time Facial Emotion Recognition (FER) system using Machine Learning and Computer Vision.
 The system captures live video through a webcam, detects human faces using the OpenCV Haar Cascade classifier, and predicts the emotion using a trained Convolutional Neural Network (CNN) model.
